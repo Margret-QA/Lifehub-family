@@ -3,3 +3,15 @@
 #inviteCode{font-family:monospace;font-size:12px}.row-actions{align-items:center} .panel .check{margin:0;white-space:nowrap} .panel .check input{flex-shrink:0}
 
 .profile-invite{margin:10px 0}.profile-invite button{font-size:.85rem;padding:7px 10px}.connected{font-size:.8rem;color:#087d72;font-weight:700}
+
+/* LifeHub UI fix: invitations and account display */
+[hidden]{display:none!important}
+.dialog-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.dialog-top h2{margin:0 0 10px}
+.icon-close{border:0;background:transparent;font-size:20px;line-height:1;padding:4px 8px}
+.dialog-feedback{min-height:20px;margin:12px 0 0;color:#a63b35;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+#inviteCode{width:100%;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;overflow-wrap:anywhere}
+#inviteDialog{max-height:min(90vh,740px);overflow-y:auto}
+#inviteDialog .actions{flex-wrap:wrap}
+#signedInName{display:block;color:#fff;font-size:13px;overflow-wrap:anywhere}
+.welcome-name{margin:0;color:#147f75;font-weight:650;font-size:13px}
