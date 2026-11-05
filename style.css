@@ -15,3 +15,9 @@
 #inviteDialog .actions{flex-wrap:wrap}
 #signedInName{display:block;color:#fff;font-size:13px;overflow-wrap:anywhere}
 .welcome-name{margin:0;color:#147f75;font-weight:650;font-size:13px}
+
+/* LifeHub join invitation feedback */
+.dialog-feedback{display:block;margin:16px 0 0;padding:12px 14px;border-radius:10px;background:#fff0ed;border:1px solid #f4c3b9;color:#922e20;font-size:14px;line-height:1.5;overflow-wrap:anywhere;white-space:pre-wrap}
+.dialog-feedback[hidden]{display:none}
+dialog{max-height:90dvh;overflow:auto}
+button:disabled{opacity:.65;cursor:wait}
